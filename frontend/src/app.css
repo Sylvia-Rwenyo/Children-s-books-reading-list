@@ -1,0 +1,43 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+.MuiContainer-root {
+  padding-top: 2rem;
+}
+
+.MuiTypography-h4 {
+  margin-top: 20px;
+}
+
+.MuiAutocomplete-option {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-icon-button {
+  color: #1976d2; /* primary color */
+  background-color: #f0f0f0;
+  border-radius: 50%;
+}
+
+.custom-icon-button:hover {
+  background-color: #e0e0e0;
+}
+
+.remove-icon-button {
+  color: #d32f2f; /* secondary color */
+  background-color: #f0f0f0;
+  border-radius: 50%;
+}
+
+.remove-icon-button:hover {
+  background-color: #e0e0e0;
+}
+
+.MuiAppBar-root {
+  margin-bottom: 20px;
+}
