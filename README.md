@@ -32,29 +32,23 @@ The Reading List UI is a React application designed for users to manage their re
 
     ```bash
     git clone https://github.com/Sylvia-Rwenyo/Ello-full-stack-engineering-challenge.git
-    cd Ello-full-stack-engineering-challenge/frontend/src
     ```
 
-2. Install dependencies:
+2. Navigate to the backend directory and install dependencies:
 
     ```bash
+    cd Ello-full-stack-engineering-challenge/backend/src
+    npm install
+    ```
+
+3. Navigate to the frontend directory and install dependencies:
+
+    ```bash
+    cd Ello-full-stack-engineering-challenge/frontend/
     npm install
     # or
     yarn install
     ```
-
-### Data
-To access the data used here, transition to the `backend/src` directory and run
-
-```bash
-npm install
-```
-
-Then, initiate the following command to launch the server
-
-```bash
-npm start
-```
 
 ### Running the App
 
@@ -80,6 +74,7 @@ yarn build
 
 ## Project Structure
 
+```
 ├── public
 │   ├── index.html
 │   └── assets
@@ -97,6 +92,7 @@ yarn build
 ├── package.json
 ├── README.md
 └── ...
+```
 
 ## Code Overview
 
