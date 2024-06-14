@@ -1,0 +1,17 @@
+/* src/ReadingList.css */
+.book-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px; 
+}
+.book-title {
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
