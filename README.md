@@ -31,20 +31,20 @@ The Reading List UI is a React application designed for users to manage their re
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Sylvia-Rwenyo/Ello-full-stack-engineering-challenge.git
+    git clone https://github.com/Sylvia-Rwenyo/Children-s-books-reading-list.git
     ```
 
 2. Navigate to the backend directory and install dependencies:
 
     ```bash
-    cd Ello-full-stack-engineering-challenge/backend/src
+    cd Children-s-books-reading-list/backend/src
     npm install
     ```
 
 3. Navigate to the frontend directory and install dependencies:
 
     ```bash
-    cd Ello-full-stack-engineering-challenge/frontend/
+    cd Children-s-books-reading-list/frontend/
     npm install
     # or
     yarn install
